@@ -9,3 +9,18 @@ out/
 
 # Dotenv file
 .env
+# Compiler files
+cache/
+out/
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*
+/broadcast/*/31337/
+
+yarn.lock
+.env
+node_modules/
+lcov.info
+report/
+.vscode/
